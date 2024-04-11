@@ -1,0 +1,29 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.quienessomos {
+    background-color: black;
+    color: white;
+}
+
+.card-group {
+    background-color: black;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Estilos específicos para la vista de celular */
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    font-size: 16px;
+    }
+    
+    .imagen {
+    display: none;
+    }
+}
