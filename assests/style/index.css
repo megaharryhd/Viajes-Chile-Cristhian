@@ -3,6 +3,18 @@
     padding: 0px;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos horizontalmente */
+    margin-left: auto; /*Se alinio meu a la izquierda*/
+    padding: 0px 90px 0px 0px;
+}
+
+.viajeschile {
+    padding: 0px 0px 0px 90px;
+}
+
+
 .quienessomos {
     background-color: black;
     color: white;
@@ -66,9 +78,13 @@
 
 .seccionesquienes {
     display: flex;
-    
+    justify-content: space-around;
+    border: solid purple 2px;    
 }
 
+#input_mensaje {
+    height: 160px;
+}
 
 
 @media only screen and (max-width: 768px) {

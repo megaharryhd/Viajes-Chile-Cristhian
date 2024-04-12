@@ -11,19 +11,23 @@
 <body>
     <nav class="navbar navbar-dark bg-transparent fixed-top navbar-expand-lg">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+          <div class="viajeschile">
+          <a class="navbar-brand" href="#">
         <img src="assests/img/viajes.svg" width="30" height="30" alt="">
         Viajes Chile
         </a>
+           </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-link" href="#">Inicio</a>
-            <a class="nav-link" href="#">Quienes Somos</a>
-            <a class="nav-link" href="#">Destacados</a>
-            <a class="nav-link" href="#">Contacto</a>
+              
+                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#">Contacto</a>
+            
             </div>
         </div>
         </div>
@@ -53,7 +57,6 @@
 
 
 
-
       <div class="quienessomos">
         <h4>
           ¿QUIÉNES SOMOS?
@@ -63,16 +66,18 @@
 
 
     <section class="seccionesquienes">
-      <div class="card-group">
-        <div class="iconos">
-          <i class="fa-solid fa-plane"></i> 
-            <div class="textoblanco">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam neque, optio quisquam rerum quae sint omnis odit! Amet ratione at iusto? Omnis aliquam ipsa dolore quidem harum accusantium nesciunt.</p>
+      <div class="row">
+
+        <div class="card-group col-4">
+          <div class="textoblanco">
+            <div class="iconos">
+              <i class="fa-solid fa-plane"></i> 
             </div>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam neque, optio quisquam rerum quae sint omnis odit! Amet ratione at iusto? Omnis aliquam ipsa dolore quidem harum accusantium nesciunt.</p>
         </div>
       </div>
 
-      <div class="card-group">
+      <div class="card-group col-4">
             <div class="textoblanco">
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam neque, optio quisquam rerum quae sint omnis odit! Amet ratione at iusto? Omnis aliquam ipsa dolore quidem harum accusantium nesciunt.</p>
                 <div class="iconos">
@@ -81,14 +86,15 @@
         </div>
       </div>
 
-      <div class="card-group">
-        <div class="iconos">
-          <i class="fa-solid fa-route"></i> 
-            <div class="textoblanco">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam neque, optio quisquam rerum quae sint omnis odit! Amet ratione at iusto? Omnis aliquam ipsa dolore quidem harum accusantium nesciunt.</p>
+      <div class="card-group col-4">
+        <div class="textoblanco">
+            <div class="iconos">
+              <i class="fa-solid fa-route"></i> 
             </div>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam neque, optio quisquam rerum quae sint omnis odit! Amet ratione at iusto? Omnis aliquam ipsa dolore quidem harum accusantium nesciunt.</p>
         </div>
       </div>
+    </div>
     </section>
 
 
@@ -140,20 +146,34 @@
       <form class="formularios">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Nombre</label>
-          <input type="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="nombre" class="form-control" id="input_nombre" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Asunto</label>
-          <input type="asunto" class="form-control" id="exampleInputPassword1">
+          <input type="asunto" class="form-control" id="input_asunto">
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-          <input type="asunto" class="form-control" id="exampleInputPassword1">
+          <input type="asunto" class="form-control" id="input_mensaje">
         </div>
         <div class="mb-3 form-check">
         </div>
         <button type="submit" class="btn btn-info bs-light">Enviar</button>
       </form>
+
+      <footer class="footer_full">
+        <div>
+          <h3>VIAJES CHILE</h3>
+        </div>
+        <div class="ico_footer">
+          <ul>
+            <ol><i class="fa-brands fa-github"></i> </ol>
+            <ol><i class="fa-brands fa-linkedin"></i></ol>
+            <ol><i class="fa-brands fa-square-twitter"></i></ol>
+            <ol><i class="fa-brands fa-square-facebook"></i></ol>
+          </ul>
+        </div>
+      </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
